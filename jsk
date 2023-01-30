@@ -1,0 +1,153 @@
+  <h3>standart</h3>
+                        <p class="plan__paragraph">
+                            Habitación en emblemático edificio Bustillo con vista parcialmente obstruida a jardines o ingreso del Resort, algunas de ellas con posible acceso por escalera (22 m² aprox.). Sin aire acondicionado. Los pisos de los cuartos pueden tener alfombra.</p>
+                        <div class="plan__standard">
+                            <img src="./images/standard.jpg" alt="#" class="standard">
+                        </div>
+
+
+                        <h3>Habitación superior</h3>
+                        <p class="plan__paragraph">
+                            Habitación en emblemático edificio Bustillo con vista parcialmente obstruida a jardines o ingreso del Resort, algunas de ellas con posible acceso por escalera (22 m² aprox.). Sin aire acondicionado. Los pisos de los cuartos pueden tener alfombra.</p>
+                        <div class="plan__standard">
+                            <img src="./images/superior.jpg" alt="#" class="standard">
+                        </div>
+
+
+                        <h3>suiter superior</h3>
+                        <p class="plan__paragraph">
+                            Habitación en emblemático edificio Bustillo con vista parcialmente obstruida a jardines o ingreso del Resort, algunas de ellas con posible acceso por escalera (22 m² aprox.). Sin aire acondicionado. Los pisos de los cuartos pueden tener alfombra.</p>
+                        <div class="plan__standard">
+                            <img src="./images/superior.jpg" alt="#" class="standard">
+                        </div>
+
+
+                        <h3>suiter precidencial</h3>
+
+                        <p class="plan__paragraph">
+                            Habitación en emblemático edificio Bustillo con vista parcialmente obstruida a jardines o ingreso del Resort, algunas de ellas con posible acceso por escalera (22 m² aprox.). Sin aire acondicionado. Los pisos de los cuartos pueden tener alfombra.</p>
+                        <div class="plan__standard">
+                            <img src="./images/suiter.JPG" alt="#" class="standard">
+                        </div>
+
+
+                        Botones 
+
+
+                        padding: 10px 15px;
+	/*padding: 1.5em 3em; */
+	appearance: none;
+	border: 0;
+	background: transparent;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: .25em;
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+
+    /* Prueba de boton */
+
+.button {
+	
+	--offset: 5px;
+	--border-size: 2px;
+	
+	display: block;
+	
+	padding: 1.5em 3em;
+	appearance: none;
+	border: 0;
+	background: transparent;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: .25em;
+	outline: none;
+	cursor: pointer;
+	font-weight: bold;
+	
+
+	box-shadow: inset 0 0 0 var(--border-size) currentcolor;
+
+
+    formulario
+    <div class="container__form">
+        <div class="info__form">
+            <h2> Contactanos </h2>
+            <p>Dejanos tu mensaje y nos pondremos en contacto.</p>
+
+             <img src="./images/call.svg" alt="#" class="a">
+            <a href="#"><i class="fa1">788-979-787</i> </a>
+          
+             <img src="./images/email.svg" alt="#" class="a">
+             <a href="#" i class="fa2">theparadise@gmail.com> </a>
+
+             <img src="./images/map.svg" alt="#" class="a">
+            <a href="#"></a> <i class="fa3">San carlos Bariloche, Argentina</i>
+            
+          
+        </div>
+        <form action="#" autocomplete="off">
+            <input type="text" name="nombre"
+            placeholder="Ingresa tu nombre" class="campo">
+            <input type="email" name="email"
+            placeholder="Ingresa tu correo" class="campo">
+            <textarea name="mensaje" placeholder="Ingresa tu mensaje"></textarea>
+            <input type="submit" name="enviar" value="enviar mensaje" class="enviar">
+        </form>
+
+        <!--CSS-->
+
+        .container__form{
+            width: 100%;
+            max-width: 1100px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 50px;
+            margin-top: 90px;
+         }
+         
+         .container__form h2{
+            margin-bottom: 15px;
+            font-size: 15px;
+         }
+         
+         .container__form p{
+            font-size: 17px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+         }
+         .container-form a{
+            
+            display: flex;
+            text-decoration: none;
+            font-size: 17px;
+            margin-bottom: 15px;
+            color: #001a49;
+            font-weight: 20;
+           
+         }
+         
+         .fa1{
+            color: #1d293f;
+            margin-right: 10px;
+            position: absolute;
+            bottom: 2px;
+            font-weight: 20;
+            width: 20px;
+            height: 15px;
+         }
+         .fa2{
+            width: 20px;
+            height: 15px;
+         }
+         
+         .fa3{
+            width: 20px;
+            height: 15px;
+         }
+         .info__form{
+            background-color: #444cf7;
+         }
+         
