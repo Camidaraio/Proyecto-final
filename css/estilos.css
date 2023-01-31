@@ -336,15 +336,13 @@
 /* ----------Seccion contacto-----------*/
 
 .contactanos{
+   width: 100%;
    border-top: 1px solid #001a49;
-   font-size: 15px;
-   line-height: 1.6;
-   margin-bottom: 30px;
-   margin: 15px;
+  } 
+  
 
-
-}
 .formulario__form1{
+   width: 100%;
    margin-bottom: 15px;
    font-size: 17px;
    margin-left: 20px;
@@ -353,16 +351,14 @@
  
 }
 .formulario{
-   width: 120px;
-   max-width: 1100px;
-   margin: auto;
-   display: grid;
-   grid-template-columns: repeat(2, 2fr);
-   grid-gap: 50px;
-   margin-top: -270px;
-   left: 20px;
+   width: 100%;
+  
+} 
 
 
+.formulario__form{
+   width: 100%;
+   
 }
   
 .campo{
